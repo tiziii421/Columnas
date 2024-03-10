@@ -1,3 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.cards{
+    width: 90%;
+    height: 500px;
+    margin: 500px auto;
+    font-size: 0;
+}
+
+.card{
+    text-align: left;
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    padding-left: 2em;
+    padding-top: 3em;
+    font-size: 1rem;
+    color: hsl(0 0% 100%/ 0.75);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.card__tittle{
+    font-size: 3rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin: 20px 0 20px 0;
+}
+
+.card_orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card_cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card_darkcyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card_desc{
+    text-align: left;
+    height: 200px;
+    width: 200px;
+}
+
 /*
 Colores
     Background: #333
@@ -19,6 +72,3 @@ Fuentes de la página
         Estilo 400
 */
 
-body {
-  background-color: #333;
-}
