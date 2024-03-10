@@ -9,6 +9,8 @@ body {
 }
 
 .cards{
+    position: fixed;
+    transform: translate(7%, -85%);
     width: 90%;
     height: 500px;
     margin: 500px auto;
@@ -30,7 +32,7 @@ body {
 .card__tittle{
     font-size: 3rem;
     font-family: 'Big Shoulders Display', sans-serif;
-    margin: 20px 0 20px 0;
+    margin: 30px 0 30px 0;
 }
 
 .card_orange{
@@ -47,8 +49,28 @@ body {
 
 .card_desc{
     text-align: left;
-    height: 200px;
+    height: 220px;
     width: 200px;
+}
+
+.card_atp{
+    width: 10px;
+    padding: 0.7em 2em;
+    border-radius: 40px;
+    background-color: white;
+    text-decoration: none;/*quita las propiedas que pone el html como colores*/
+}
+
+.card_atp-orange{
+    color: hsl(31, 77%, 52%);
+}
+
+.card_atp-cyan{
+    color: hsl(184, 100%, 22%);
+}
+
+.card_atp-darkcyan{
+    color: hsl(179, 100%, 13%);
 }
 
 /*
